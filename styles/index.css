@@ -59,3 +59,14 @@ main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(2) {}
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(3) {}
 /* 개별 슬라이드 2 */
 main .hero_banner .hero .swiper-wrapper .hero2 {padding-top: 104px;}
+main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
+    width: 100%;
+    display: block;
+    height: 100vh;
+    background-image: url(../images/image_slide_bg2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide2 p:nth-child(1) {}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide2 p:nth-child(2) {}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide2 p:nth-child(3) {}
