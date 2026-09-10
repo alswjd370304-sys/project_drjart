@@ -1,0 +1,21 @@
+/* var.css */
+:root {
+    --color-point:#0DD92F; /*포인트 컬러 */
+    --color-txt: #222;
+    --color-bg: #fff;
+}
+
+/* 반복 클래스 정리 */
+.flex-r-e-c{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-r-b-c {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+}

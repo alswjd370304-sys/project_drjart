@@ -1,0 +1,29 @@
+/* index.css */
+/* ------------------------------------------------------------------------헤더 시작 */
+/* 헤더 띠배너 광고 */
+header {width: 1920px;}
+header .top_ad {
+    height: 35px;
+    background-color: var(--color-txt); padding:0 120px;
+    position: relative;
+}
+header .top_ad .ad_txt {
+    font-family:'pretendard', 'Noto Snas KR';
+    font-size: 0.938rem;
+    color: var(--color-point);
+    position: absolute;
+    left: 45%; top: center;
+}
+header .top_ad .pad_close_btn {width: 100%;}
+/* 헤더메뉴바 */
+header .top_menu {padding: 20px 240px; position: relative;}
+header .top_menu #total_menu {}
+header .top_menu #total_menu img {}
+header .top_menu .logo {
+    position: absolute; left: 47%;
+}
+header .top_menu .logo img {width:100%;}
+header .top_menu .main_menu {}
+header .top_menu .main_menu #login {}
+header .top_menu .main_menu a {}
+header .top_menu .main_menu a img {}
