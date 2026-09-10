@@ -1,7 +1,7 @@
 /* index.css */
 /* ------------------------------------------------------------------------헤더 시작 */
 /* 헤더 띠배너 광고 */
-header {position: fixed; width: 100%;}
+header {position: fixed; width: 100%; z-index: 999; background-color: var(--color-bg);}
 header .top_ad {
     height: 35px;
     background-color: var(--color-txt); padding:5px 120px;
@@ -31,3 +31,31 @@ header .top_menu .main_menu #secrch {}
 header .top_menu .main_menu .cart_menu {gap: 4px;}
 header .top_menu .main_menu .cart_menu a {}
 header .top_menu .main_menu .cart_menu img {width: 100%;}
+/* ------------------------------------------------------------------------main 시작 */
+/* --------------------------------------------------------------1행 시작 */
+/* swiper 내장 css - swiper플러그인에 기본 내장된 css는 디자인 시 사용금지 */
+/* swiper -> ovserflow:hidden; position:relative */
+/* swiper-wrapper -> position:relative width:max-content; transform;  */
+/* swiper-slide -> position:relative (가로크기 금지) */
+/* popular_prev, next는 absolute 기본내장 */
+main {}
+main .hero_banner {}
+main .hero_banner .hero {}
+main .hero_banner .hero .swiper-wrapper {}
+main .hero_banner .hero .swiper-wrapper .swiper-slide {}
+/* 개별 슬라이드 1 */
+main .hero_banner .hero .swiper-wrapper .hero1 {padding-top: 104px;}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 {
+    width: 100%;
+    display: block;
+    height: 100vh;
+    background-image: url(../images/image_slide_bg1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(1) {}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(2) {}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(3) {}
+/* 개별 슬라이드 2 */
+main .hero_banner .hero .swiper-wrapper .hero2 {padding-top: 104px;}
