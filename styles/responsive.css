@@ -1,38 +1,54 @@
 /* 반응형 미디어 규칙 */
 /* -----------------------------------------------------------------태블릿 */
-@media screen and (--main-width:1024px) {
-    header {position: fixed; width: 100%;}
-header .top_ad {
-    height: 35px;
-    background-color: var(--color-txt); padding:0 120px;
-    position: relative;
-    }
-    header .top_ad .ad_txt {
-        font-family:'pretendard', 'Noto Snas KR';
-        font-size: 0.938rem;
-        color: var(--color-point);
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    header .top_ad .pad_close_btn {width: 100%;}
+@media screen and (max-width:1150px) {
+    header {width: 100%;}
+    header .top_ad {}
+    header .top_ad .ad_txt {}
+    header .top_ad .pad_close_btn {}
     /* 헤더메뉴바 */
-    header .top_menu {padding: 20px 240px; position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
+    header .top_menu {padding: 20px 80px; position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
     header .top_menu #total_menu {}
     header .top_menu #total_menu img {}
     header .top_menu .logo {
-        width: 124px; height: 24px; 
-        position: absolute; left: 50%;
+        width: 103px; height: 20px; 
+        position: absolute; left: 50%;  top:35%;
         transform: translateX(-50%);
     }
-    header .top_menu .logo img {width:100%;}
+    header .top_menu .logo img {}
     header .top_menu .main_menu {gap: 12px;}
-    header .top_menu .main_menu #secrch {}
-    header .top_menu .main_menu .cart_menu {gap: 4px;}
-    header .top_menu .main_menu .cart_menu a {}
-    header .top_menu .main_menu .cart_menu img {width: 100%;}
+    header .top_menu .main_menu a {font-size: 0.875rem;}
+    header .top_menu .main_menu #secrch {font-size: 0.875rem;}
+    header .top_menu .main_menu .cart_menu {}
+    header .top_menu .main_menu .cart_menu a {font-size: 0.875rem;}
+    header .top_menu .main_menu .cart_menu img {}
 }
 
 
 /* -----------------------------------------------------------------모바일 */
-@media screen and (--main-width:700px) {}
+@media screen and (max-width:700px) {
+    header {width: 700px;}
+    header .top_ad {padding:5px 15px;}
+    header .top_ad .ad_txt {font-size: 0.875rem;}
+    header .top_ad .pad_close_btn {}
+    /* 헤더메뉴바 */
+    header .top_menu {padding: 15px 15px; position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
+    header .top_menu #total_menu {width: 24px; height: 24px;}
+    header .top_menu #total_menu img {}
+    header .top_menu .logo {
+        width: 90px; height: 16px; 
+        position: absolute; left: 50%;  top:35%;
+        transform: translateX(-50%);
+    }
+    header .top_menu .logo img {}
+    header .top_menu .main_menu {gap: 12px;}
+    header .top_menu .main_menu .login,
+    header .top_menu .main_menu .cart_menu,
+    header .top_menu .main_menu .account {
+        display: none;
+    }
+    header .top_menu .main_menu a {font-size: 0.875rem;}
+    header .top_menu .main_menu #secrch {font-size: 0.875rem;}
+    header .top_menu .main_menu .cart_menu {}
+    header .top_menu .main_menu .cart_menu a {font-size: 0.875rem;}
+    header .top_menu .main_menu .cart_menu img {}
+}

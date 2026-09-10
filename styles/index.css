@@ -4,7 +4,7 @@
 header {position: fixed; width: 100%;}
 header .top_ad {
     height: 35px;
-    background-color: var(--color-txt); padding:0 120px;
+    background-color: var(--color-txt); padding:5px 120px;
     position: relative;
 }
 header .top_ad .ad_txt {
@@ -19,11 +19,11 @@ header .top_ad .pad_close_btn {width: 100%;}
 /* 헤더메뉴바 */
 header .top_menu {padding: 20px 240px; position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
 header .top_menu #total_menu {}
-header .top_menu #total_menu img {}
+header .top_menu #total_menu img {width: 100%;}
 header .top_menu .logo {
     width: 124px; height: 24px; 
-    position: absolute; left: 50%;
-    transform: translateX(-50%);
+    position: absolute; left: 50%; top:32%;
+    transform: translateX(-50%); 
 }
 header .top_menu .logo img {width:100%;}
 header .top_menu .main_menu {gap: 12px;}
