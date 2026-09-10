@@ -54,9 +54,23 @@ main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 {
     background-repeat: no-repeat;
 
 }
-main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(1) {}
-main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(2) {}
-main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(3) {}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(1) {font-size: 1.25rem; color: var(--color-bg);}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 p:nth-child(2) {
+    font-size:2.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--color-bg);
+
+}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .show_now_btn {
+    width: 167px; line-height: 45px;
+    padding: 6px 12px;
+    color: var(--color-bg);
+    font-size: 1.063rem;
+}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .show_now_btn p {}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .show_now_btn .now_arrow {}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .show_now_btn .now_arrow img {width: 100%;}
 /* 개별 슬라이드 2 */
 main .hero_banner .hero .swiper-wrapper .hero2 {padding-top: 104px;}
 main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
@@ -67,6 +81,6 @@ main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-main .hero_banner .hero .swiper-wrapper .hero1 .image_slide2 p:nth-child(1) {}
+main .hero_banner .hero .swiper-wrapper .hero1 .image_slide2 p:nth-child(1) {font-size: 1.25rem; color: var(--color-txt);}
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide2 p:nth-child(2) {}
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide2 p:nth-child(3) {}
