@@ -1,7 +1,7 @@
 /* index.css */
 /* ------------------------------------------------------------------------헤더 시작 */
 /* 헤더 띠배너 광고 */
-header {width: 1920px;}
+header {position: fixed; width: 100%;}
 header .top_ad {
     height: 35px;
     background-color: var(--color-txt); padding:0 120px;
@@ -12,18 +12,22 @@ header .top_ad .ad_txt {
     font-size: 0.938rem;
     color: var(--color-point);
     position: absolute;
-    left: 45%; top: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 header .top_ad .pad_close_btn {width: 100%;}
 /* 헤더메뉴바 */
-header .top_menu {padding: 20px 240px; position: relative;}
+header .top_menu {padding: 20px 240px; position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
 header .top_menu #total_menu {}
 header .top_menu #total_menu img {}
 header .top_menu .logo {
-    position: absolute; left: 47%;
+    width: 124px; height: 24px; 
+    position: absolute; left: 50%;
+    transform: translateX(-50%);
 }
 header .top_menu .logo img {width:100%;}
-header .top_menu .main_menu {}
-header .top_menu .main_menu #login {}
-header .top_menu .main_menu a {}
-header .top_menu .main_menu a img {}
+header .top_menu .main_menu {gap: 12px;}
+header .top_menu .main_menu #secrch {}
+header .top_menu .main_menu .cart_menu {gap: 4px;}
+header .top_menu .main_menu .cart_menu a {}
+header .top_menu .main_menu .cart_menu img {width: 100%;}

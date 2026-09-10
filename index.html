@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/var.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <!-- 자바스크립트 연결 -->
     <script src="./scripts/index.js" defer></script>
 </head>
@@ -23,16 +24,19 @@
         </div>
         <div class="top_menu flex-r-b-c"> <!-- 헤더 메뉴 -->
             <button type="button" id="total_menu"><img src="./images/total_menu.svg" alt="전체메뉴열기"></button>
-            <a href="./index.html" class="logo"><img src="./images/menu_logo.svg" alt="닥터자르트 메인홈"></a>
-            <span class="main_menu">
-                <button type="button" id="login">LOGIN</button>
-                <a href="#" class="secrch">SEARCH</a>
-                <a href="#" class="cart">CART<img src="./images/cart_count.svg" alt=""></a>
+            <a href="./index.html" class="logo"><img src="./images/logo.jpg" alt="닥터자르트 메인홈"></a>
+            <span class="main_menu flex-r-e-c">
+                <a href="#" class="login">LOGIN</a>
+                <button type="button" id="secrch">SEARCH</button>
+                <div class="cart_menu flex-r-e-c">
+                    <a href="#" class="cart">CART</a>
+                    <img src="./images/cart_count.svg" alt="">
+                </div>
                 <a href="#" class="account">ACCOUNT</a>
             </span>
         </div>
         <!-- total_menu 클릭 시 실행되는 메뉴창 -->
-        <div class="menu_popup"></div>
+        <div class="menu_popup"><!-- 추후 입력예정 --></div>
     </header> <!-- 헤더영역종료 -->
 </body>
 </html>
