@@ -4,7 +4,7 @@
     header {width: 100%;}
     header .top_ad {}
     header .top_ad .ad_txt {}
-    header .top_ad .pad_close_btn {}
+    header .top_ad .ad_close_btn {}
     /* 헤더메뉴바 */
     header .top_menu {padding: 20px 80px; position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
     header .top_menu #total_menu {}
@@ -29,7 +29,7 @@
     header {width: 700px;}
     header .top_ad {padding:5px 15px;}
     header .top_ad .ad_txt {font-size: 0.875rem;}
-    header .top_ad .pad_close_btn {}
+    header .top_ad .ad_close_btn {}
     /* 헤더메뉴바 */
     header .top_menu {padding: 15px 15px; position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
     header .top_menu #total_menu {width: 24px; height: 24px;}
