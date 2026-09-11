@@ -50,13 +50,14 @@ main .hero_banner .hero .swiper-wrapper .hero1 {padding-top: 104px;}
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 {
     width: 100%;
     display: block;
-    height: 100vh;
-    background-image: url(../images/image_slide_bg1.png);
-    background-size: 100%;
+    height: calc(100vh - 104px);
+    background-image: url(../images/image_slide1_b.png);
+    background-size: 100% auto;
     background-repeat: no-repeat;
+    background-position: 20% center;
 }
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt {
-    position: absolute; left: 15%;
+    position: absolute; left: 11%; bottom: 32%;
 }
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(1) {
     font-family:'pretendard', 'Noto Snas KR';
@@ -93,7 +94,8 @@ main .hero_banner .hero .swiper-wrapper .hero2 {padding-top: 104px;}
 main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
     width: 100%;
     display: block;
-    height: 100vh;
+    height: calc(100vh - 104px);
+    background-position: center;
     background-image: url(../images/image_slide_bg2.png);
     background-size: 100%;
     background-repeat: no-repeat;
