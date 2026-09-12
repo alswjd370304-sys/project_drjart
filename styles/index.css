@@ -1,5 +1,5 @@
 /* index.css */
-/* ------------------------------------------------------------------------헤더 시작 */
+/* --------------------------------------------------------------------------------------------------헤더 시작 */
 /* 헤더 띠배너 광고 */
 header {position: fixed; width: 100%; z-index: 999; background-color: var(--color-bg);}
 header .top_ad {
@@ -33,7 +33,7 @@ header .top_menu .main_menu #secrch {}
 header .top_menu .main_menu .cart_menu {gap: 4px;}
 header .top_menu .main_menu .cart_menu a {}
 header .top_menu .main_menu .cart_menu img {width: 100%;}
-/* ------------------------------------------------------------------------main 시작 */
+/* --------------------------------------------------------------------------------------------------main 시작 */
 /* --------------------------------------------------------------1행 시작 */
 /* swiper 내장 css - swiper플러그인에 기본 내장된 css는 디자인 시 사용금지 */
 /* swiper -> ovserflow:hidden; position:relative */
@@ -72,7 +72,7 @@ main .hero_banner .hero .image_banner_page .swiper-pagination-bullet-active {wid
 /* 페이지 넘버 표시 종료 */
 main .hero_banner .hero .swiper-wrapper .swiper-slide {}
 
-/* 개별 슬라이드 1 */
+/* ---------------------------------개별 슬라이드 1 */
 main .hero_banner .hero .swiper-wrapper .hero1 {padding-top: 104px;}
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 {
     display: block;
@@ -96,7 +96,7 @@ main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child
 }
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn {
     width: max-content; padding: 12px 24px; color: var(--color-bg);
-    gap: 12px;
+    gap: 8px;
     border-radius: 50px;
     border: 1px solid var(--color-bg);
 }
@@ -107,7 +107,7 @@ main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_b
     transform: translateY(1px);
 }
 main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
-/* 개별 슬라이드 2 */
+/* ---------------------------------개별 슬라이드 2 */
 main .hero_banner .hero .swiper-wrapper .hero2 {padding-top: 104px;}
 main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
     display: block;

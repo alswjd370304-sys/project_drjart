@@ -21,12 +21,60 @@
     header .top_menu .main_menu .cart_menu {}
     header .top_menu .main_menu .cart_menu a {font-size: 0.875rem;}
     header .top_menu .main_menu .cart_menu img {}
-}
+    /* --------------------------------------------------------------------------------------------------main 시작 */
+    /* --------------------------------------------------------------1행 시작 */
+    main {}
+    main .hero_banner {}
+    main .hero_banner .hero {}
+    main .hero_banner .hero .swiper-wrapper {}
+    /* 버튼 디자인 */
+    main .hero_banner .hero .image_banner_prev,
+    main .hero_banner .hero .image_banner_next {width: 38px; height: 38px; color: var(--color-bg);}
+
+    main .hero_banner .hero .image_banner_prev {transform: translate(80%, 120%);}
+    main .hero_banner .hero .image_banner_next {transform: translate(-80%, 120%);}
+    /* 버튼 디자인 종료 */
+    /* 페이지 넘버 표시 */
+    main .hero_banner .hero .image_banner_page {gap: 8px; top: 88%}
+    main .hero_banner .hero .image_banner_page .swiper-pagination-bullet {width: 8px; height: 8px; transition: width 0.3s ease;}
+    main .hero_banner .hero .image_banner_page .swiper-pagination-bullet-active {width: 29px;}
+    /* 페이지 넘버 표시 종료 */
+    main .hero_banner .hero .swiper-wrapper .swiper-slide {}
+
+    /* ---------------------------------개별 슬라이드 1 */
+    main .hero_banner .hero .swiper-wrapper .hero1 {padding-top: 104px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 {
+        height: calc(100vw * 740 / 1024);
+        background-image: url(../images/image_slide_bg1_t.jpg);
+        background-size: 110% auto;
+        background-position: right 20%;
+    }
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt {left: 11%; bottom: 12%;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(1) {font-size: 1.125rem; margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(2) {font-size:2.125rem; margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn {padding: 11px 16px; gap: 10px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn span { font-size: 1rem; letter-spacing: -0.04em; transform: translateY(1.5px);}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
+    /* ---------------------------------개별 슬라이드 2 */
+    main .hero_banner .hero .swiper-wrapper .hero2 {padding-top: 104px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
+        height: calc(100vw * 740 / 1024);
+        background-image: url(../images/image_slide_bg2_t.jpg);
+        background-size: 100% auto;
+        background-position: left 20%;
+    }
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt {left: 11%; bottom: 12%;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(1) {font-size: 1.125rem; margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(2) {font-size:2.125rem;margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn {padding: 11px 16px; gap: 10px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn span {font-size: 1rem; transform: translateY(1.5px);}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
+} /* 태블릿 끝 */
 
 
 /* -----------------------------------------------------------------모바일 */
-@media screen and (max-width:700px) {
-    header {width: 700px;}
+@media screen and (max-width:740px) {
+    header {width: 100%;}
     header .top_ad {padding:5px 15px;}
     header .top_ad .ad_txt {font-size: 0.875rem;}
     header .top_ad .ad_close_btn {}
@@ -51,4 +99,52 @@
     header .top_menu .main_menu .cart_menu {}
     header .top_menu .main_menu .cart_menu a {font-size: 0.875rem;}
     header .top_menu .main_menu .cart_menu img {}
-}
+    /* --------------------------------------------------------------------------------------------------main 시작 */
+    /* --------------------------------------------------------------1행 시작 */
+    main {}
+    main .hero_banner {}
+    main .hero_banner .hero {}
+    main .hero_banner .hero .swiper-wrapper {}
+    /* 버튼 디자인 */
+    main .hero_banner .hero .image_banner_prev,
+    main .hero_banner .hero .image_banner_next {width: 38px; height: 38px; color: var(--color-bg);}
+
+    main .hero_banner .hero .image_banner_prev {transform: translate(80%, 120%);}
+    main .hero_banner .hero .image_banner_next {transform: translate(-80%, 120%);}
+    /* 버튼 디자인 종료 */
+    /* 페이지 넘버 표시 */
+    main .hero_banner .hero .image_banner_page {gap: 8px; top: 88%}
+    main .hero_banner .hero .image_banner_page .swiper-pagination-bullet {width: 8px; height: 8px; transition: width 0.3s ease;}
+    main .hero_banner .hero .image_banner_page .swiper-pagination-bullet-active {width: 29px;}
+    /* 페이지 넘버 표시 종료 */
+    main .hero_banner .hero .swiper-wrapper .swiper-slide {}
+
+    /* ---------------------------------개별 슬라이드 1 */
+    main .hero_banner .hero .swiper-wrapper .hero1 {padding-top: 89px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 {
+        height: calc(100vw * 740 / 1024);
+        background-image: url(../images/image_slide_bg1_t.jpg);
+        background-size: 110% auto;
+        background-position: right 20%;
+    }
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt {left: 11%; bottom: 12%;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(1) {font-size: 1.125rem; margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(2) {font-size:2.125rem; margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn {padding: 11px 16px; gap: 10px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn span { font-size: 1rem; letter-spacing: -0.04em; transform: translateY(1.5px);}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
+    /* ---------------------------------개별 슬라이드 2 */
+    main .hero_banner .hero .swiper-wrapper .hero2 {padding-top: 89px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
+        height: calc(100vw * 740 / 1024);
+        background-image: url(../images/image_slide_bg2_t.jpg);
+        background-size: 100% auto;
+        background-position: left 20%;
+    }
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt {left: 11%; bottom: 12%;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(1) {font-size: 1.125rem; margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(2) {font-size:2.125rem;margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn {padding: 11px 16px; gap: 10px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn span {font-size: 1rem; transform: translateY(1.5px);}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
+}/* 모바일 끝 */
