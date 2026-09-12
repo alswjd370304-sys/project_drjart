@@ -141,3 +141,21 @@ main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_b
     transform: translateY(1px);
 }
 main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
+
+/* --------------------------------------------------------------2행 시작 */
+main .brand_slogan_wrap .brand_slogan {
+    padding: 115px 240px 38px 240px; text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.8s;
+}
+main .brand_slogan_wrap .brand_slogan p {font-family:'pretendard', 'Noto Snas KR'; font-weight: 0.875rem;}
+main .brand_slogan_wrap .brand_slogan p:nth-child(1){font-family: 'HYGothic-Extra', 'pretendard'; margin-bottom: 15px;}
+main .brand_slogan_wrap .brand_slogan p:nth-child(2){font-size: 3.438rem; font-weight: 500; margin-bottom: 29px;}
+main .brand_slogan_wrap .brand_slogan p:nth-child(3){font-size: 1.063rem; line-height: 2;}
+/* 스크롤 했을 때 브랜드 슬로건 active 클래스 주기 */
+/* 숨겨져 있다가 스크롤 시 위로 올라오는 애니메이션 */
+main .brand_slogan_wrap .brand_slogan.active {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -36,3 +36,10 @@ input[type=number] {
     -moz-appearance:none;
     margin:0;
 }
+
+/* 폰트 연결 */
+@font-face {
+    font-family: 'HYGothic-Extra';
+    src: url('https://static.wfonts.com/data/2015/07/03/hygothic-extra/HYGothic-Extra.ttf') format('ttf');
+    font-display: swap;
+}

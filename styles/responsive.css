@@ -69,11 +69,28 @@
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn {padding: 11px 16px; gap: 10px;}
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn span {font-size: 1rem; transform: translateY(1.5px);}
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
+    /* --------------------------------------------------------------2행 시작 */
+    main .brand_slogan_wrap .brand_slogan {
+        padding: 80px 80px; text-align: center;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.8s;
+    }
+    main .brand_slogan_wrap .brand_slogan p {font-family:'pretendard', 'Noto Snas KR';}
+    main .brand_slogan_wrap .brand_slogan p:nth-child(1){font-family: 'HYGothic-Extra', 'pretendard'; font-size: 0.813rem; margin-bottom: 15px;}
+    main .brand_slogan_wrap .brand_slogan p:nth-child(2){font-size: 2.813rem; font-weight: 500; margin-bottom: 29px;}
+    main .brand_slogan_wrap .brand_slogan p:nth-child(3){font-size: 1rem; line-height: 2;}
+    /* 스크롤 했을 때 브랜드 슬로건 active 클래스 주기 */
+    /* 숨겨져 있다가 스크롤 시 위로 올라오는 애니메이션 */
+    main .brand_slogan_wrap .brand_slogan.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
 } /* 태블릿 끝 */
 
 
 /* -----------------------------------------------------------------모바일 */
-@media screen and (max-width:740px) {
+@media screen and (max-width:800px) {
     header {width: 100%;}
     header .top_ad {padding:5px 15px;}
     header .top_ad .ad_txt {font-size: 0.875rem;}
@@ -107,14 +124,14 @@
     main .hero_banner .hero .swiper-wrapper {}
     /* 버튼 디자인 */
     main .hero_banner .hero .image_banner_prev,
-    main .hero_banner .hero .image_banner_next {width: 38px; height: 38px; color: var(--color-bg);}
+    main .hero_banner .hero .image_banner_next {width: 30px; height: 30px; color: var(--color-bg);}
 
     main .hero_banner .hero .image_banner_prev {transform: translate(80%, 120%);}
     main .hero_banner .hero .image_banner_next {transform: translate(-80%, 120%);}
     /* 버튼 디자인 종료 */
     /* 페이지 넘버 표시 */
-    main .hero_banner .hero .image_banner_page {gap: 8px; top: 88%}
-    main .hero_banner .hero .image_banner_page .swiper-pagination-bullet {width: 8px; height: 8px; transition: width 0.3s ease;}
+    main .hero_banner .hero .image_banner_page {gap: 4px; top: 88%}
+    main .hero_banner .hero .image_banner_page .swiper-pagination-bullet {width: 6px; height: 6px; transition: width 0.3s ease;}
     main .hero_banner .hero .image_banner_page .swiper-pagination-bullet-active {width: 29px;}
     /* 페이지 넘버 표시 종료 */
     main .hero_banner .hero .swiper-wrapper .swiper-slide {}
@@ -122,29 +139,47 @@
     /* ---------------------------------개별 슬라이드 1 */
     main .hero_banner .hero .swiper-wrapper .hero1 {padding-top: 89px;}
     main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 {
-        height: calc(100vw * 740 / 1024);
+        height: calc(100vw * 874 / 800);
         background-image: url(../images/image_slide_bg1_t.jpg);
-        background-size: 110% auto;
-        background-position: right 20%;
+        background-size: 150% auto;
+        background-position: right 5%;
     }
     main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt {left: 11%; bottom: 12%;}
-    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(1) {font-size: 1.125rem; margin-bottom: 13px;}
-    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(2) {font-size:2.125rem; margin-bottom: 13px;}
-    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn {padding: 11px 16px; gap: 10px;}
-    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn span { font-size: 1rem; letter-spacing: -0.04em; transform: translateY(1.5px);}
-    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(1) {font-size: 1rem; margin-bottom: 6px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(2) {font-size:1.25rem; margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn {padding: 8px 12px; gap: 10px;}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn span { font-size: 0.875rem; letter-spacing: -0.04em; transform: translateY(1px);}
+    main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt .show_now_btn img {width: 16px; height: 16px;}
     /* ---------------------------------개별 슬라이드 2 */
     main .hero_banner .hero .swiper-wrapper .hero2 {padding-top: 89px;}
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
-        height: calc(100vw * 740 / 1024);
+        height: calc(100vw * 874 / 800);
         background-image: url(../images/image_slide_bg2_t.jpg);
-        background-size: 100% auto;
-        background-position: left 20%;
+        background-size: 140% auto;
+        background-position: right 20%;
     }
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt {left: 11%; bottom: 12%;}
-    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(1) {font-size: 1.125rem; margin-bottom: 13px;}
-    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(2) {font-size:2.125rem;margin-bottom: 13px;}
-    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn {padding: 11px 16px; gap: 10px;}
-    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn span {font-size: 1rem; transform: translateY(1.5px);}
-    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(1) {font-size: 1rem; margin-bottom: 6px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(2) {font-size:1.25rem;margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn {padding: 8px 12px; gap: 10px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn span {font-size: 0.875rem; transform: translateY(1px);}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn img {width: 16px; height: 16px;}
+        /* --------------------------------------------------------------2행 시작 */
+    main .brand_slogan_wrap {}
+    main .brand_slogan_wrap .brand_slogan {
+        padding: 40px 15px; text-align: center;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: 0.8s;
+    }
+    main .brand_slogan_wrap .brand_slogan p {font-family:'pretendard', 'Noto Snas KR';}
+    main .brand_slogan_wrap .brand_slogan p:nth-child(1){font-family: 'HYGothic-Extra', 'pretendard'; font-size: 0.625rem; margin-bottom: 15px;}
+    main .brand_slogan_wrap .brand_slogan p:nth-child(2){font-size: 1.875rem; font-weight: 500; margin-bottom: 29px;}
+    main .brand_slogan_wrap .brand_slogan p:nth-child(3){font-size: 0.813rem; line-height: 1.8;}
+    /* 스크롤 했을 때 브랜드 슬로건 active 클래스 주기 */
+    /* 숨겨져 있다가 스크롤 시 위로 올라오는 애니메이션 */
+    main .brand_slogan_wrap .brand_slogan.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }/* 모바일 끝 */
