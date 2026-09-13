@@ -86,6 +86,20 @@
         opacity: 1;
         transform: translateY(0);
     }
+    /* --------------------------------------------------------------3행 시작 */
+    main .best_product_wrap {padding: 80px 80px;}
+    /* 제목 디자인 */
+    main .best_product_wrap .title_more_wrap {}
+    main .best_product_wrap .title_more_wrap .title_g * {}
+    main .best_product_wrap .title_more_wrap .title_g .title {font-size: 1.875rem; margin-bottom: 8px;}
+    main .best_product_wrap .title_more_wrap .title_g .sub_title {font-size: 1rem;}
+    /* 더보기 및 더보기 호버 */
+    main .best_product_wrap .title_more_wrap .more {
+        width: 53px; height: 53px;
+        background-image: url(../images/best_wrap/more.svg);
+    }
+    main .best_product_wrap .title_more_wrap .more img {}
+    main .best_product_wrap .title_more_wrap .more:hover {background-image: url(../images/best_wrap/more_hover.svg);}
 } /* 태블릿 끝 */
 
 
@@ -182,4 +196,19 @@
         opacity: 1;
         transform: translateY(0);
     }
+        /* --------------------------------------------------------------3행 시작 */
+    main .best_product_wrap {padding: 60px 15px;}
+    /* 제목 디자인 */
+    main .best_product_wrap .title_more_wrap {}
+    main .best_product_wrap .title_more_wrap .title_g * {}
+    main .best_product_wrap .title_more_wrap .title_g {width: 267px;}
+    main .best_product_wrap .title_more_wrap .title_g .title {font-size: 1.75rem; margin-bottom: 8px;}
+    main .best_product_wrap .title_more_wrap .title_g .sub_title {font-size: 0.938rem; line-height: 1.5;}
+    /* 더보기 및 더보기 호버 */
+    main .best_product_wrap .title_more_wrap .more {
+        width: 42px; height: 42px;
+        background-image: url(../images/best_wrap/more_m.svg);
+    }
+    main .best_product_wrap .title_more_wrap .more img {}
+    main .best_product_wrap .title_more_wrap .more:hover {background-image: url(../images/best_wrap/more_m_hover.svg);}
 }/* 모바일 끝 */

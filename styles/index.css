@@ -168,6 +168,7 @@ main .best_product_wrap .title_more_wrap .title_g .title {font-size: 2.25rem; fo
 main .best_product_wrap .title_more_wrap .title_g .sub_title {font-size: 1.125rem; color: rgba(0, 0, 0, 0.5);}
 /* 더보기 및 더보기 호버 */
 main .best_product_wrap .title_more_wrap .more {
+    display: block;
     margin: 0;
     width: 53px; height: 53px;
     background-image: url(../images/best_wrap/more.svg);
