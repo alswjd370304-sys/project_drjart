@@ -185,7 +185,12 @@ main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide {}
 main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide * {font-family:'pretendard', 'Noto Snas KR';}
 main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide a {display: block; width: 100%; aspect-ratio: 343 / 417; margin-bottom: 18px;}
 main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name {}
-main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .name {line-height: 1.5; font-size: 1.063rem; margin-bottom: 6px;}
+main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .name {
+    line-height: 1.5; font-size: 1.063rem; margin-bottom: 6px; /* 자동줄바꿈막기 -> 영역을 나간 글자숨기기 -> 말줄임(..)처리 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* 말줄임 처리 */
+}
 main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .sub_txt  {
     font-family: 'GMarketSans', 'pretendard'; font-weight: 500; font-size: 0.906rem;
     color: rgba(0, 0, 0, 0.4); margin-bottom: 26px;
