@@ -39,6 +39,10 @@ window.addEventListener('scroll', ()=>{
 const bestSlide = new Swiper('.best_product_swiper',{
     slidesPerView:4,
     spaceBetween:19,
+        navigation: {
+        prevEl: '.best_prev',
+        nextEl: '.best_next',
+    },
 }) //swiper 실행
 
 for(let i=0; i<=5; i++){
