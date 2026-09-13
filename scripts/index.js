@@ -29,7 +29,7 @@ const swiperWrapper = document.querySelector('.best_product_swiper .swiper-wrapp
 let animation = false; // 실행안함
 //
 window.addEventListener('scroll', ()=>{
-    if(scrollY > 10 &&  animation == false){
+    if(scrollY > 100 &&  animation == false){
         brand_slogan.classList.add('active');
         animation = true;
     }
@@ -39,11 +39,29 @@ window.addEventListener('scroll', ()=>{
 const bestSlide = new Swiper('.best_product_swiper',{
     slidesPerView:4,
     spaceBetween:19,
-        navigation: {
+    navigation: {
         prevEl: '.best_prev',
         nextEl: '.best_next',
     },
+    breakpoints: {
+        1501: {
+            slidesPerView: 4,
+            spaceBetween: 19,
+        },
+        901: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        0: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+    },
+    scrollbar: {
+        el: '.best_scrollbar',
+    },
 }) //swiper 실행
+
 
 for(let i=0; i<=5; i++){
     const bestSlideDiv = document.createElement('div');
