@@ -159,3 +159,21 @@ main .brand_slogan_wrap .brand_slogan.active {
     opacity: 1;
     transform: translateY(0);
 }
+/* --------------------------------------------------------------3행 시작 */
+main .best_product_wrap {padding: 104px 240px 63px 240px;}
+/* 제목 디자인 */
+main .best_product_wrap .title_more_wrap {}
+main .best_product_wrap .title_more_wrap .title_g * {font-family:'pretendard', 'Noto Snas KR';}
+main .best_product_wrap .title_more_wrap .title_g .title {font-size: 2.25rem; font-weight: 600; line-height: 1.5; margin-bottom: 8px;}
+main .best_product_wrap .title_more_wrap .title_g .sub_title {font-size: 1.125rem; color: rgba(0, 0, 0, 0.5);}
+/* 더보기 및 더보기 호버 */
+main .best_product_wrap .title_more_wrap .more {
+    margin: 0;
+    width: 53px; height: 53px;
+    background-image: url(../images/best_wrap/more.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: 0.3s ease-out;
+}
+main .best_product_wrap .title_more_wrap .more img {width: 100%;}
+main .best_product_wrap .title_more_wrap .more:hover {background-image: url(../images/best_wrap/more_hover.svg);}

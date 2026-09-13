@@ -22,7 +22,7 @@ let animation = false; // 실행안함
 const brand_slogan = document.querySelector('.brand_slogan');
 //
 window.addEventListener('scroll', ()=>{
-    if(scrollY > 200 &&  animation == false){
+    if(scrollY > 10 &&  animation == false){
         brand_slogan.classList.add('active');
         animation = true;
     }

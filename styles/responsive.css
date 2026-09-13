@@ -141,8 +141,8 @@
     main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 {
         height: calc(100vw * 874 / 800);
         background-image: url(../images/image_slide_bg1_t.jpg);
-        background-size: 150% auto;
-        background-position: right 5%;
+        background-size: 140% auto;
+        background-position: right 20%;
     }
     main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt {left: 11%; bottom: 12%;}
     main .hero_banner .hero .swiper-wrapper .hero1 .image_slide1 .ad_txt p:nth-child(1) {font-size: 1rem; margin-bottom: 6px;}
@@ -155,7 +155,7 @@
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 {
         height: calc(100vw * 874 / 800);
         background-image: url(../images/image_slide_bg2_t.jpg);
-        background-size: 140% auto;
+        background-size: 110% auto;
         background-position: right 20%;
     }
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt {left: 11%; bottom: 12%;}

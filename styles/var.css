@@ -9,7 +9,7 @@
 .flex-r-e-c{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -25,4 +25,11 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-content: center;
+}
+
+.flex-r-b-e {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
 }
