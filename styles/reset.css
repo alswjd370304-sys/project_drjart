@@ -37,9 +37,30 @@ input[type=number] {
     margin:0;
 }
 
-/* 폰트 연결 */
+/* 폰트 연결 고딕 */
 @font-face {
     font-family: 'HYGothic-Extra';
     src: url('https://static.wfonts.com/data/2015/07/03/hygothic-extra/HYGothic-Extra.ttf') format('ttf');
+    font-display: swap;
+}
+/* 폰트 연결 G마켓 산스 */
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: 700;
     font-display: swap;
 }
