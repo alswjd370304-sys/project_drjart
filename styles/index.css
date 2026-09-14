@@ -341,23 +341,79 @@ main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_righ
 main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g {margin-bottom: 55px;}
 main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_name {font-size: 2.938rem; letter-spacing: -0.04em; font-weight: 600; margin-bottom: 30px;}
 main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_info { text-align: center; width: 548px; font-size: 1.063rem; line-height: 1.5; color: rgba(0, 0, 0, 0.6);}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_product_g {position: relative;}
 main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_product_image {
     display: block;
-    width: 348px; height: 354px;
+    width: 348px;
+    height: 354px;
     background-image: url(../images/skin/skin_product1.png);
     background-size: cover;
 }
-main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_product_image:hover {
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_product_g:hover .skin_product_image {
     background-image: url(../images/skin/skin_product_hover1.png);
 }
 /* 장바구니 디자인 및 호버 */
 main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right #skin_cart_btn {
-    display: none; width: 50px; height: 50px; position:absolute; bottom: 55%; right: 15%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 80%;
+    right: -2%;
     background-image: url(../images/skin/skin_cart_btn.svg);
+    background-size: cover;
 }
+
 main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right #skin_cart_btn:hover {
     background-image: url(../images/skin/skin_cart_btn_hover.svg);
 }
+/* -----------------------포어레미디 */
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 {}
+/* 왼쪽 */
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap * {color: var(--color-bg); font-family:'pretendard', 'Noto Snas KR'; }
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap {
+    width: 50%;
+    height: 850px;
+    background-image: url(../images/skin/skin_main2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 75px;
+}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .skin_solution_title {font-size: 1.5rem; margin-bottom: 520px;}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: 3.875rem; font-weight: 700; line-height: 1.3;}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: 3.875rem; font-weight: 700;}
+/* 오른쪽 */
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right {background-color: #F9F9F9; width: 50%; height: 850px; padding: 122px 0 0 0;}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right * {font-family:'pretendard', 'Noto Snas KR';}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g {margin-bottom: 55px;}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_name {font-size: 2.938rem; letter-spacing: -0.04em; font-weight: 600; margin-bottom: 30px;}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_info { text-align: center; width: 548px; font-size: 1.063rem; line-height: 1.5; color: rgba(0, 0, 0, 0.6);}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_product_g {position: relative;}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_product_image {
+    display: block;
+    width: 348px;
+    height: 354px;
+    background-image: url(../images/skin/skin_product2.png);
+    background-size: cover;
+}
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_product_g:hover .skin_product_image {
+    background-image: url(../images/skin/skin_product_hover2.png);
+}
+/* 장바구니 디자인 및 호버 */
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right #skin_cart_btn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 80%;
+    right: -2%;
+    background-image: url(../images/skin/skin_cart_btn.svg);
+    background-size: cover;
+}
+
+main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right #skin_cart_btn:hover {
+    background-image: url(../images/skin/skin_cart_btn_hover.svg);
+}
+
 /* 슬라이드 버튼 디자인 */
 main .skin_solution_wrap .skin_solution_swiper .skin_prev,
 main .skin_solution_wrap .skin_solution_swiper .skin_next {

@@ -89,6 +89,16 @@ for(let i=0; i<=5; i++){
 
 //swiper 실행
 const skinSwiper = new Swiper('.skin_solution_swiper', {
+    loop: true,
+
+    effect: 'fade',
+
+    speed: 500,
+
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
     navigation: {
         prevEl: '.skin_prev',
         nextEl: '.skin_next',
