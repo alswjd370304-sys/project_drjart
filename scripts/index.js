@@ -23,7 +23,7 @@ const brand_slogan = document.querySelector('.brand_slogan');
 const swiperWrapper = document.querySelector('.best_product_swiper .swiper-wrapper'); //붙여넣기할 대상
 
 
-//------------------------------------------------------------------------------1행 swiper
+//------------------------------------------------------------------------------2행 swiper
 //해당 스크롤에 도착 시 딱 한 번 애니메이션을 진행하고 새로고침 전까지 작동 안함.
 //브랜드 슬로건 영역에 도착시 브랜드 슬로건 애니메이션 실행
 let animation = false; // 실행안함
@@ -35,7 +35,7 @@ window.addEventListener('scroll', ()=>{
     }
 })
 
-//------------------------------------------------------------------------------2행 swiper
+//------------------------------------------------------------------------------3행 swiper
 const bestSlide = new Swiper('.best_product_swiper',{
     slidesPerView:4,
     spaceBetween:19,
@@ -75,13 +75,25 @@ for(let i=0; i<=5; i++){
     bestSlideDiv.innerHTML += `<p class="price">${bestDB[i].price}</p>`
     bestSlideDiv.innerHTML += `<p class="cart"><button type="button" class="cart_btn">장바구니</button></p>`
 
-    bestSlideDiv.addEventListener('click', function(e){
-    if(e.target.classList.contains('cart_btn')){
-        return;
+    bestSlideDiv.addEventListener('click', function(e){ //클릭했을 때 그게 장바구니라면
+    if(e.target.classList.contains('cart_btn')){ 
+        return; //아무것도 하지 말고 끝내고
     }
-    location.href = '#';
+    location.href = '#'; //아니면 상품 페이지로 이동
 });
 
     swiperWrapper.appendChild(bestSlideDiv); //붙여넣기
 }
 
+//------------------------------------------------------------------------------4행 swiper
+
+//swiper 실행
+const skinSwiper = new Swiper('.skin_solution_swiper', {
+    navigation: {
+        prevEl: '.skin_prev',
+        nextEl: '.skin_next',
+    },
+    pagination:{
+        el: '.skin_page',
+    }
+})

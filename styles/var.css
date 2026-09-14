@@ -33,3 +33,16 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+.flex-c-b-s {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.flex-c-s-c {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
