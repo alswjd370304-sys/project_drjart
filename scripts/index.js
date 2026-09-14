@@ -75,7 +75,13 @@ for(let i=0; i<=5; i++){
     bestSlideDiv.innerHTML += `<p class="price">${bestDB[i].price}</p>`
     bestSlideDiv.innerHTML += `<p class="cart"><button type="button" class="cart_btn">장바구니</button></p>`
 
-    swiperWrapper.appendChild(bestSlideDiv); //붙여넣기
+    bestSlideDiv.addEventListener('click', function(e){
+    if(e.target.classList.contains('cart_btn')){
+        return;
+    }
+    location.href = '#';
+});
 
+    swiperWrapper.appendChild(bestSlideDiv); //붙여넣기
 }
 
