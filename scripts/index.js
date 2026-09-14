@@ -76,4 +76,6 @@ for(let i=0; i<=5; i++){
     bestSlideDiv.innerHTML += `<p class="cart"><button type="button" class="cart_btn">장바구니</button></p>`
 
     swiperWrapper.appendChild(bestSlideDiv); //붙여넣기
+
 }
+
