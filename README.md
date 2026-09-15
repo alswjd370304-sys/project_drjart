@@ -1,5 +1,5 @@
 # 닥터자르트 리디자인 project
-*** "This is a portfolio project for educational purposes."***
+"This is a portfolio project for educational purposes."
 * 이것은 취업 목적의 포트폴리오 프로젝트입니다.
 
 
@@ -38,5 +38,3 @@
 ## 진행상황
 * 3행 상품목록 클릭 범위 수정
 * 4행구조태그 작성
-### 새로운 자바스크립트 학습
-* contains: 가지고 있다라는 의미로 이를 사용해서 해당 클래스를 가지고 있다면이라는 조건문을 사용할 떄 유용함.
