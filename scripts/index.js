@@ -44,7 +44,7 @@ const bestSlide = new Swiper('.best_product_swiper',{
         nextEl: '.best_next',
     },
     breakpoints: {
-        1501: {
+        1401: {
             slidesPerView: 4,
             spaceBetween: 19,
         },
@@ -67,22 +67,26 @@ for(let i=0; i<=5; i++){
     const bestSlideDiv = document.createElement('div');
     bestSlideDiv.classList.add('swiper-slide');
 
-    bestSlideDiv.innerHTML = `<a href="#" class="best_product_img${bestDB[i].id}"></a>`
-    bestSlideDiv.innerHTML += `<div class="product_name">
-    <p class="name">${bestDB[i].name}</p>
-    <p class="sub_txt">${bestDB[i].sub_txt}</p>
-    </div>`
-    bestSlideDiv.innerHTML += `<p class="price">${bestDB[i].price}</p>`
-    bestSlideDiv.innerHTML += `<p class="cart"><button type="button" class="cart_btn">장바구니</button></p>`
+    bestSlideDiv.innerHTML = `
+        <a href="#" class="best_product_link">
 
-    bestSlideDiv.addEventListener('click', function(e){ //클릭했을 때 그게 장바구니라면
-    if(e.target.classList.contains('cart_btn')){ 
-        return; //아무것도 하지 말고 끝내고
-    }
-    location.href = '#'; //아니면 상품 페이지로 이동
-});
+            <div class="best_product_img${bestDB[i].id}"></div>
 
-    swiperWrapper.appendChild(bestSlideDiv); //붙여넣기
+            <div class="product_name">
+                <p class="name">${bestDB[i].name}</p>
+                <p class="sub_txt">${bestDB[i].sub_txt}</p>
+            </div>
+
+            <p class="price">${bestDB[i].price}</p>
+
+        </a>
+
+        <p class="cart">
+            <button type="button" class="cart_btn">장바구니</button>
+        </p>
+    `
+
+    swiperWrapper.appendChild(bestSlideDiv);
 }
 
 //------------------------------------------------------------------------------4행 swiper
