@@ -3,6 +3,8 @@
     --color-point:#0DD92F; /*포인트 컬러 */
     --color-txt: #222;
     --color-bg: #fff;
+    --color-menu-active: rgba(251, 251, 251, 0.2);
+    --color-menu-bg: rgba(0, 0, 0, 0.2);
 }
 
 /* 반복 클래스 정리 */
@@ -33,16 +35,36 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+.flex-r-s-s {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
 .flex-c-b-s {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: space-between;
 }
-
 .flex-c-s-c {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+}
+.flex-c-c-c {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-c-s-s {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

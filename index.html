@@ -43,14 +43,14 @@
             </span>
         </div>
         <!-- total_menu 클릭 시 실행되는 메뉴창 -->
-        <div class="menu-overlay">
-            <div class="menu_total_menu_wrap">
+        <div class="menu_overlay">
+            <div class="menu_total_wrap flex-r-c-c">
                 <!-- 왼쪽 메뉴 영역 -->
-                <div class="menu_left">
+                <div class="menu_left flex-c-s-c">
                     <a href="#" class="menu_logo"><img src="./images/menu/menu_log.svg" alt="메인홈 바로가기"></a>
-                    <span class="menu_tab_g">
+                    <span class="menu_tab_g flex-c-c-c">
                         <button type="button" class="menu_tab active">EVENT</button>
-                        <button type="button" class="menu_tab">신제품</button>
+                        <a href="#"><button type="button" class="menu_tab">신제품</button></a>
                         <button type="button" class="menu_tab">유형별</button>
                         <button type="button" class="menu_tab">라인별</button>
                         <button type="button" class="menu_tab">민감피부솔루션</button>
@@ -60,19 +60,22 @@
                 </div>
                 <!-- 오른쪽 메뉴영역 -->
                 <div class="menu_right">
-                    <div class="menu_top">
-                        <a href="#" class="login">로그인</a>
-                        <a href="#" class="join">회원가입</a>
+                    <div class="menu_top flex-r-b-c">
+                        <div class="top">
+                            <a href="#" class="login">로그인</a>
+                            <a href="#" class="join">회원가입</a>
+                            <button type="button" class="language">KR</button>
+                        </div>
                         <button type="button" class="close_btn"><img src="./images/menu/close_btn.svg"></button>
                     </div>
                     <!-- 이벤트 -->
-                    <div class="menu_content active">
-                        <div class="menu_list"><a href="#">공식몰 헤택</a><img src="./images/menu/menu_more_btn.svg" alt=""></div>
+                    <div class="menu_content flex-c-s-s active">
+                        <div class="menu_list"><a href="#">공식몰 혜택</a><img src="./images/menu/menu_more_btn.svg" alt=""></div>
                         <div class="menu_list"><a href="#">홀리데이 세트</a><img src="./images/menu/menu_more_btn.svg" alt=""></div>
                         <div class="menu_list"><a href="#">Clearance Sale</a><img src="./images/menu/menu_more_btn.svg" alt=""></div>
                     </div>
                     <!-- 유형별 -->
-                    <div class="menu_content">
+                    <div class="menu_content flex-c-s-s">
                         <div class="menu_list"><a href="#">모든제품</a><img src="./images/menu/menu_more_btn.svg" alt=""></div>
                         <div class="menu_list"><a href="#">베스트</a><img src="./images/menu/menu_more_btn.svg" alt=""></div>
                         <div class="menu_list"><a href="#">토너/미스트</a><img src="./images/menu/menu_more_btn.svg" alt=""></div>

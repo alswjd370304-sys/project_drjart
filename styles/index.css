@@ -1,7 +1,7 @@
 /* index.css */
 /* --------------------------------------------------------------------------------------------------헤더 시작 */
-/* 헤더 띠배너 광고 */
-header {position: fixed; width: 100%; z-index: 999; background-color: var(--color-bg);}
+/* --------------------------------------------------------------------------헤더 띠배너 광고 */
+header {position: fixed; width: 100%; z-index: 900; background-color: var(--color-bg);}
 header .top_ad {
     height: 35px;
     background-color: var(--color-txt); padding:5px 120px;
@@ -34,7 +34,56 @@ header .top_menu .main_menu .cart_menu {gap: 4px;}
 header .top_menu .main_menu .cart_menu a {}
 header .top_menu .main_menu .cart_menu img {width: 100%;}
 
-/* 오버레이 메뉴창 디자인 */
+/* -------------------------------------------------------------------------------------------------오버레이 메뉴창 디자인 */
+header .menu_overlay {
+    position: fixed; height: 100vh; width: 100%;
+    background-color: var(--color-menu-bg); 
+    top: 0; left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+/* 햄버거 누른 후 메뉴 활성화 및 애니메이션 */
+header .menu_overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+header .menu_overlay.active .menu_total_wrap {transform: translateX(0);}
+header .menu_overlay .menu_total_wrap {background-color: var(--color-bg); width: 550px; height: 100vh;}
+/* 왼쪽 탭 메뉴 */
+header .menu_overlay .menu_total_wrap {transform: translateX(-100%);
+    transition: 0.5s;}
+header .menu_overlay .menu_total_wrap .menu_left {background-color: var(--color-txt); width:140px; padding-top: 15px;}
+header .menu_overlay .menu_total_wrap .menu_left * {color: var(--color-bg);}
+header .menu_overlay .menu_total_wrap .menu_left .menu_logo {margin-bottom: 20px;}
+header .menu_overlay .menu_total_wrap .menu_left .menu_logo img {}
+header .menu_overlay .menu_total_wrap .menu_left .menu_tab_g .menu_tab {width: 140px; height: 60px; gap:8px}
+/* 왼쪽 메뉴 탭 활성화 */
+header .menu_overlay .menu_total_wrap .menu_left .menu_tab_g .menu_tab.active {background-color: var(--color-menu-active);}
+
+/* 오른쪽 영역 */
+/* top  */
+header .menu_overlay .menu_total_wrap .menu_right {width: 100%; position: relative;}
+header .menu_overlay .menu_total_wrap .menu_right .menu_top {padding: 35px 22px 0 22px; margin-bottom: 49px;}
+header .menu_overlay .menu_total_wrap .menu_right .menu_top .top {}
+header .menu_overlay .menu_total_wrap .menu_right .menu_top .top a {margin-right: 14px;}
+header .menu_overlay .menu_total_wrap .menu_right .menu_top .top .language {}
+header .menu_overlay .menu_total_wrap .menu_right .menu_top .close_btn {width: 25px; height: 25px; transform: translatey(-10%);}
+header .menu_overlay .menu_total_wrap .menu_right .menu_top .close_btn img {width: 100%;}
+/* contents */
+header .menu_overlay .menu_total_wrap .menu_right .menu_content {padding: 0 22px; gap: 25px; display: none;}
+header .menu_overlay .menu_total_wrap .menu_right .menu_content .menu_list {
+    width: 100%;
+    display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;
+}
+header .menu_overlay .menu_total_wrap .menu_right .menu_content .menu_list a {}
+header .menu_overlay .menu_total_wrap .menu_right .menu_content .menu_list img {}
+/* 오른쪽 메뉴 활성화 */
+header .menu_overlay .menu_total_wrap .menu_right .menu_content.active {display: flex;}
+/* 광고 디자인 */
+header .menu_overlay .menu_total_wrap .menu_right .menu_evet_img {position: absolute; bottom: 10%; left: 4%;}
+header .menu_overlay .menu_total_wrap .menu_right .menu_evet_img img {}
+
 /* --------------------------------------------------------------------------------------------------main 시작 */
 
 
@@ -321,7 +370,7 @@ main .best_product_wrap .best_next {transform: translate(-190%, 120%);}
 main .best_product_wrap .best_scrollbar {
     display: none;
     height: 6px;
-    width: calc(100%-30px); position: absolute; left: 50%; transform: translateX(-50%);
+    width: calc(100% - 30px); position: absolute; left: 50%; transform: translateX(-50%);
 }
 main .best_product_wrap .swiper-scrollbar-drag {background: var(--color-txt);}
 
