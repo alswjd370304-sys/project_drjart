@@ -4,7 +4,45 @@
     --color-txt: #222;
     --color-bg: #fff;
     --color-menu-active: rgba(251, 251, 251, 0.2);
-    --color-menu-bg: rgba(0, 0, 0, 0.2);
+    --color-menu-bg: rgba(0, 0, 0, 0.25);
+    --color-brand-logan: rgba(34, 34, 34, 0.6) ;
+    --color-cart-border: #DADADA ;
+    --color-info: rgba(0, 0, 0, 0.5);
+    --color-recommended: #BBBFBB;
+
+    /* 데스크탑 폰트 사이즈 */
+    --font-size-d1: 3.875rem;  /* 62 */
+    --font-size-d2: 2.938rem;  /* 47 */
+    --font-size-d3: 2.25rem;   /* 36 */
+    --font-size-d4: 1.5rem;    /* 24 */
+    --font-size-d5: 1.125rem;  /* 18 */
+    --font-size-d6: 1.063rem;  /* 17 */
+    --font-size-d7: 0.969rem;  /* 15.5 */
+    --font-size-d8: 0.938rem;  /* 15 */
+    --font-size-d9: 0.906rem;  /* 14.5 */
+    --font-size-d10: 0.875rem; /* 14 */
+    --font-size-d11: 2.563rem; /* 41 */
+    --font-size-d12: 1.25rem;   /* 20 */
+
+    /* 태블릿 폰트 사이즈 */
+    --font-size-t1: 2.5rem;    /* 40 */
+    --font-size-t2: 2.375rem;  /* 38 */
+    --font-size-t3: 1.875rem;  /* 30 */
+    --font-size-t4: 1.25rem;   /* 20 */
+    --font-size-t5: 0.938rem;  /* 15 */
+    --font-size-t6: 1rem;      /* 16 */
+    --font-size-t7: 0.906rem;  /* 14 */
+    --font-size-t8: 0.875rem;  /* 14 */
+    /* 모바일 */
+    --font-size-m1: 2.125rem; /* 34 */
+    --font-size-m2: 1.75rem;  /* 28 */
+    --font-size-m3: 1rem;     /* 16 */
+    --font-size-m4: 0.938rem; /* 15 */
+    --font-size-m5: 0.875rem; /* 14 */
+    --font-size-m6: 0.844rem; /* 13.5 */
+    --font-size-m7: 0.75rem;  /* 12 */
+    --font-size-m8: 0.719rem; /* 11.5 */
+    
 }
 
 /* 반복 클래스 정리 */
@@ -41,6 +79,12 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+.flex-r-b-s {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 
 .flex-c-b-s {
@@ -61,10 +105,23 @@
     justify-content: center;
     align-items: center;
 }
+.flex-c-b-c {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .flex-c-s-s {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.flex-rw-s-s {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }

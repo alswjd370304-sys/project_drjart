@@ -28,7 +28,8 @@ const closeBtn = document.querySelector('.close_btn'); //닫기버튼
 /* 메뉴탭 변수 */
 const menuTab = document.querySelectorAll('.menu_tab');
 const menuContent = document.querySelectorAll('.menu_content');
-
+//5 행 변수
+const recommenededDiv = document.querySelector('.recommended_right');
 
 //------------------------------------------------------------------------------2행 swiper
 //해당 스크롤에 도착 시 딱 한 번 애니메이션을 진행하고 새로고침 전까지 작동 안함.
@@ -155,3 +156,23 @@ menuTab[2].addEventListener('click', function() {
     menuContent[1].classList.add('active');
 
 });
+
+//------------------------------------------------------------------------------5행 DB 복사 붙여넣기
+for(let k=0; k<9; k++){
+    //console.log(k);
+    recommenededDiv.innerHTML += `
+    <a href="#" class="recommended_link">
+        <div class="image_cart">
+            <div class="r_product_image_${recommenededDB[k].id}"></div>
+            <button type="button" class="recommended_cart"></button>
+        </div>
+            <div class="prodcut_name_sub_g">
+                <p class="name">${recommenededDB[k].name}</p>
+                <p class="sub_txt_r">${recommenededDB[k].sub_txt}</p>
+            </div>
+            <p class="price">${recommenededDB[k].price}</p>
+    </a> 
+    `
+}
+
+//탭메뉴 클릭 했을 때 활성화 되기

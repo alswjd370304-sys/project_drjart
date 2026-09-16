@@ -65,7 +65,7 @@
     }
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt {left: 11%; bottom: 12%;}
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(1) {font-size: 1.125rem; margin-bottom: 13px;}
-    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(2) {font-size:2.125rem;margin-bottom: 13px;}
+    main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt p:nth-child(2) {font-size:2.125rem; margin-bottom: 13px;}
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn {padding: 11px 16px; gap: 10px;}
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn span {font-size: 1rem; transform: translateY(1.5px);}
     main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_btn img {width: 20px; height: 20px;}
@@ -77,7 +77,7 @@
         transition: 0.8s;
     }
     main .brand_slogan_wrap .brand_slogan p {font-family:'pretendard', 'Noto Snas KR';}
-    main .brand_slogan_wrap .brand_slogan p:nth-child(1){font-family: 'HYGothic-Extra', 'pretendard'; font-size: 0.813rem; margin-bottom: 15px;}
+    main .brand_slogan_wrap .brand_slogan p:nth-child(1){font-size: 0.813rem; margin-bottom: 15px;}
     main .brand_slogan_wrap .brand_slogan p:nth-child(2){font-size: 2.813rem; font-weight: 500; margin-bottom: 29px;}
     main .brand_slogan_wrap .brand_slogan p:nth-child(3){font-size: 1rem; line-height: 2;}
     /* 스크롤 했을 때 브랜드 슬로건 active 클래스 주기 */
@@ -91,8 +91,8 @@
     /* 제목 디자인 */
     main .best_product_wrap .title_more_wrap {}
     main .best_product_wrap .title_more_wrap .title_g * {}
-    main .best_product_wrap .title_more_wrap .title_g .title {font-size: 1.875rem; margin-bottom: 8px;}
-    main .best_product_wrap .title_more_wrap .title_g .sub_title {font-size: 1rem;}
+    main .best_product_wrap .title_more_wrap .title_g .title {font-size: var(--font-size-t3); margin-bottom: 8px;}
+    main .best_product_wrap .title_more_wrap .title_g .sub_title {font-size: var(--font-size-t6);}
     /* 더보기 및 더보기 호버 */
     main .best_product_wrap .title_more_wrap .more {
         width: 53px; height: 53px;
@@ -107,13 +107,13 @@
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide * {}
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .best_product_link {width: 100%; margin-bottom: 18px;}
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name {}
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .name {line-height: 1.5; font-size: 1rem; margin-bottom: 6px;}
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .sub_txt  {font-size: 0.906rem; margin-bottom: 26px;}
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .price  {font-size: 0.938rem; margin-bottom: 17px;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .name {font-size: var(--font-size-t6); line-height: 1.5; font-size: 1rem; margin-bottom: 6px;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .sub_txt  {font-size: var(--font-size-t7); margin-bottom: 26px;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .price  {font-size: var(--font-size-t5); margin-bottom: 17px;}
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart  {text-align: center;}
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart .cart_btn  {line-height: 40px; width: 100%; font-size: 0.938rem;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart .cart_btn  {line-height: 40px; width: 100%; font-size: var(--font-size-t5);}
     /* 장바구니 호버기능 */
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart:hover .cart_btn {line-height: 40px; font-size: 0.906rem;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart:hover .cart_btn {line-height: 40px; font-size: var(--font-size-t7);}
     /* 베스트상품 이미지 연결 및 호버 연결 */
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .best_product_img1 {
         background-image: url(../images/best_wrap/best_product_1.jpg); 
@@ -219,15 +219,15 @@
         background-position: center;
         padding: 75px;
     }
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .skin_solution_title {font-size: 1.25rem; margin-bottom: 550px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: 2.5rem; font-weight: 700;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: 2.5rem; font-weight: 700;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .skin_solution_title {font-size: var(--font-size-t4); margin-bottom: 550px;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: var(--font-size-t1); font-weight: 700;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: var(--font-size-t1); font-weight: 700;}
     /* 오른쪽 */
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right {background-color: #F9F9F9; width: 50%; height: 850px; padding: 122px 0 0 0;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right * {font-family:'pretendard', 'Noto Snas KR';}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g {margin-bottom: 55px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_name {font-size: 2.375rem; margin-bottom: 30px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_info {width: 456px; font-size: 0.938rem; line-height: 1.5;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_name {font-size: var(--font-size-t2); margin-bottom: 30px;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_info {width: 456px; font-size: var(--font-size-t5); line-height: 1.5;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_product_g {position: relative;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_product_image {
         display: block;
@@ -266,15 +266,15 @@
         background-position: center;
         padding: 75px;
     }
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .skin_solution_title {font-size: 1.25rem; margin-bottom: 550px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: 2.5rem; font-weight: 700;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: 2.5rem; font-weight: 700;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .skin_solution_title {font-size: var(--font-size-t4); margin-bottom: 550px;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: var(--font-size-t1); font-weight: 700;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: var(--font-size-t1);font-weight: 700;}
     /* 오른쪽 */
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right {background-color: #F9F9F9; width: 50%; height: 850px; padding: 122px 0 0 0;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right * {font-family:'pretendard', 'Noto Snas KR';}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g {margin-bottom: 55px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_name {font-size: 2.375rem; margin-bottom: 30px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_info {width: 456px; font-size: 0.938rem; line-height: 1.5;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_name {font-size: var(--font-size-t2); margin-bottom: 30px;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_info {width: 456px; font-size: var(--font-size-t5); line-height: 1.5;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_product_g {position: relative;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_product_image {
         display: block;
@@ -355,6 +355,50 @@
     header .top_menu .main_menu .cart_menu {}
     header .top_menu .main_menu .cart_menu a {font-size: 0.875rem;}
     header .top_menu .main_menu .cart_menu img {}
+
+    /* -------------------------------------------------------------------------------------------------오버레이 메뉴창 디자인 */
+    header .menu_overlay {}
+    /* 햄버거 누른 후 메뉴 활성화 및 애니메이션 */
+    header .menu_overlay.active {}
+    header .menu_overlay.active .menu_total_wrap {}
+    header .menu_overlay .menu_total_wrap {background-color: var(--color-bg); width: 440px; height: 100vh;}
+    /* 왼쪽 탭 메뉴 */
+    header .menu_overlay .menu_total_wrap {transform: translateX(-100%);
+        transition: 0.5s;}
+    header .menu_overlay .menu_total_wrap .menu_left {background-color: var(--color-txt); width:140px; padding-top: 15px;}
+    header .menu_overlay .menu_total_wrap .menu_left * {color: var(--color-bg);}
+    header .menu_overlay .menu_total_wrap .menu_left .menu_logo {margin-bottom: 20px;}
+    header .menu_overlay .menu_total_wrap .menu_left .menu_logo img {}
+    header .menu_overlay .menu_total_wrap .menu_left .menu_tab_g .menu_tab {font-size: var(--font-size-m4); }
+    /* 왼쪽 메뉴 탭 활성화 */
+    header .menu_overlay .menu_total_wrap .menu_left .menu_tab_g .menu_tab.active {background-color: var(--color-menu-active);}
+
+    /* 오른쪽 영역 */
+    /* top  */
+    header .menu_overlay .menu_total_wrap .menu_right {width: 100%; position: relative;}
+    header .menu_overlay .menu_total_wrap .menu_right * {}
+    header .menu_overlay .menu_total_wrap .menu_right .menu_top {padding: 35px 22px 0 22px; margin-bottom: 49px;}
+    header .menu_overlay .menu_total_wrap .menu_right .menu_top .top {}
+    header .menu_overlay .menu_total_wrap .menu_right .menu_top .top a {margin-right: 14px;}
+    header .menu_overlay .menu_total_wrap .menu_right .menu_top .top .language {}
+    header .menu_overlay .menu_total_wrap .menu_right .menu_top .close_btn {width: 25px; height: 25px; transform: translatey(-10%);}
+    header .menu_overlay .menu_total_wrap .menu_right .menu_top .close_btn img {width: 100%;}
+    /* contents */
+    header .menu_overlay .menu_total_wrap .menu_right .menu_content {padding: 0 22px; gap: 25px; display: none; font-size: var(--font-size-m5);}
+    header .menu_overlay .menu_total_wrap .menu_right .menu_content .menu_list {
+        width: 100%;
+        display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;
+    }
+    header .menu_overlay .menu_total_wrap .menu_right .menu_content .menu_list a {}
+    header .menu_overlay .menu_total_wrap .menu_right .menu_content .menu_list img {}
+    /* 오른쪽 메뉴 활성화 */
+    header .menu_overlay .menu_total_wrap .menu_right .menu_content.active {display: flex;}
+    /* 광고 디자인 */
+    header .menu_overlay .menu_total_wrap .menu_right .menu_evet_img {
+        width: 278px; height: 153px; position: absolute; bottom: 10%; left: 4%; display: block; 
+        background-image: url(../images/menu/ad.m.svg);
+        background-size: cover;
+    }
     /* --------------------------------------------------------------------------------------------------main 시작 */
     /* --------------------------------------------------------------1행 시작 */
     main {}
@@ -427,8 +471,8 @@
     main .best_product_wrap .title_more_wrap {}
     main .best_product_wrap .title_more_wrap .title_g * {}
     main .best_product_wrap .title_more_wrap .title_g {width: 267px;}
-    main .best_product_wrap .title_more_wrap .title_g .title {font-size: 1.75rem; margin-bottom: 8px;}
-    main .best_product_wrap .title_more_wrap .title_g .sub_title {font-size: 0.938rem; line-height: 1.5;}
+    main .best_product_wrap .title_more_wrap .title_g .title {font-size: var(--font-size-m2); margin-bottom: 8px;}
+    main .best_product_wrap .title_more_wrap .title_g .sub_title {font-size:var(--font-size-m4); line-height: 1.5;}
     /* 더보기 및 더보기 호버 */
     main .best_product_wrap .title_more_wrap .more {
         width: 42px; height: 42px;
@@ -443,13 +487,13 @@
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide * {}
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .best_product_link {width: 100%; margin-bottom: 18px;}
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name {}
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .name {line-height: 1.5; font-size: 0.844rem; margin-bottom: 6px;}
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .sub_txt  {font-size: 0.719rem; margin-bottom: 26px;}
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .price  {font-size: 0.75rem; margin-bottom: 17px;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .name {line-height: 1.5; font-size: var(--font-size-m6); margin-bottom: 6px;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .product_name .sub_txt  {font-size: var(--font-size-m8); margin-bottom: 26px;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .price  {font-size: var(--font-size-m7); margin-bottom: 17px;}
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart  {text-align: center;}
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart .cart_btn  {line-height: 32px; width: 100%; font-size: 0.75rem;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart .cart_btn  {line-height: 32px; width: 100%; font-size: var(--font-size-m7);}
     /* 장바구니 호버기능 */
-    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart:hover .cart_btn {line-height: 32px; font-size: 0.75rem;}
+    main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .cart:hover .cart_btn {line-height: 32px; font-size: var(--font-size-m7);}
     /* 베스트상품 이미지 연결 및 호버 연결 */
     main .best_product_wrap .best_product_swiper .swiper-wrapper .swiper-slide .best_product_img1 {
         background-image: url(../images/best_wrap/best_product_1.jpg); 
@@ -567,15 +611,15 @@
         background-position: center;
         padding: 32px;
     }
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .skin_solution_title {font-size: 1rem; margin-bottom: 424px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: 2.125rem; font-weight: 700;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: 2.125rem; font-weight: 700;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .skin_solution_title {font-size: var(--font-size-m3); margin-bottom: 424px;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: var(--font-size-m1); font-weight: 700;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: var(--font-size-m1); font-weight: 700;}
     /* 오른쪽 */
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right {background-color: #F9F9F9; width: 100%; height: 599px; padding: 72px 0 0 0;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right * {font-family:'pretendard', 'Noto Snas KR';}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g {margin-bottom: 55px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_name {font-size: 2.125rem; margin-bottom: 18px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_info {width: 456px; font-size: 0.875rem; line-height: 1.5;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_name {font-size: var(--font-size-m1); margin-bottom: 18px;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_title_info_g .skin_product_info {width: 456px; font-size: var(--font-size-m5); line-height: 1.5;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_product_g {position: relative;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin1 .skin_right .skin_product_image {
         display: block;
@@ -619,15 +663,15 @@
         background-position: center;
         padding: 32px;
     }
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .skin_solution_title {font-size: 1rem; margin-bottom: 424px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: 2.125rem; font-weight: 700;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: 2.125rem; font-weight: 700;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .skin_solution_title {font-size: var(--font-size-m3); margin-bottom: 424px;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(1) {font-size: var(--font-size-m1); font-weight: 700;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_left_wrap .title_p_g p:nth-child(2) {font-size: var(--font-size-m1); font-weight: 700;}
     /* 오른쪽 */
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right {background-color: #F9F9F9; width: 100%; height: 599px; padding: 72px 0 0 0;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right * {font-family:'pretendard', 'Noto Snas KR';}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g {margin-bottom: 55px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_name {font-size: 2.125rem; margin-bottom: 18px;}
-    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_info {width: 456px; font-size: 0.875rem; line-height: 1.5;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_name {font-size: var(--font-size-m1); margin-bottom: 18px;}
+    main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_title_info_g .skin_product_info {width: 456px; font-size: var(--font-size-m5); line-height: 1.5;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_product_g {position: relative;}
     main .skin_solution_wrap .skin_solution_swiper .swiper-wrapper .skin2 .skin_right .skin_product_image {
         display: block;
