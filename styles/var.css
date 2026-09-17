@@ -9,6 +9,7 @@
     --color-cart-border: #DADADA ;
     --color-info: rgba(0, 0, 0, 0.5);
     --color-recommended: #BBBFBB;
+    --color-now-btn: rgba(255,255,255,0.3);
 
     /* 데스크탑 폰트 사이즈 */
     --font-size-d1: 3.875rem;  /* 62 */
@@ -22,7 +23,8 @@
     --font-size-d9: 0.906rem;  /* 14.5 */
     --font-size-d10: 0.875rem; /* 14 */
     --font-size-d11: 2.563rem; /* 41 */
-    --font-size-d12: 1.25rem;   /* 20 */
+    --font-size-d12: 1.25rem;  /* 20 */
+    --font-size-d13: 4.688rem; /* 75 */
 
     /* 태블릿 폰트 사이즈 */
     --font-size-t1: 2.5rem;    /* 40 */
@@ -31,8 +33,15 @@
     --font-size-t4: 1.25rem;   /* 20 */
     --font-size-t5: 0.938rem;  /* 15 */
     --font-size-t6: 1rem;      /* 16 */
-    --font-size-t7: 0.906rem;  /* 14 */
+    --font-size-t7: 0.906rem;  /* 14.5 */
     --font-size-t8: 0.875rem;  /* 14 */
+    --font-size-t9: 2.125rem;  /* 34 */
+    --font-size-t10: 0.844rem; /* 13.5 */
+    --font-size-t11: 0.813rem; /* 13 */
+    --font-size-t12: 0.75rem;  /* 12 */
+    --font-size-t13: 1.063rem; /* 17 */
+    --font-size-t14: 3.75rem; /* 60 */
+
     /* 모바일 */
     --font-size-m1: 2.125rem; /* 34 */
     --font-size-m2: 1.75rem;  /* 28 */
@@ -42,6 +51,7 @@
     --font-size-m6: 0.844rem; /* 13.5 */
     --font-size-m7: 0.75rem;  /* 12 */
     --font-size-m8: 0.719rem; /* 11.5 */
+    --font-size-m9: 1.25rem; /* 20 */
     
 }
 

@@ -45,8 +45,6 @@ window.addEventListener('scroll', ()=>{
 
 //------------------------------------------------------------------------------3행 swiper
 const bestSlide = new Swiper('.best_product_swiper',{
-    slidesPerView:4,
-    spaceBetween:19,
     navigation: {
         prevEl: '.best_prev',
         nextEl: '.best_next',
@@ -186,3 +184,25 @@ for(let j=0; j<5; j++){
         recommenededTab[j].classList.add('active');
     })
 }
+
+//------------------------------------------------------------------------------6행 이벤트 슬라이드
+const eventSlide = new Swiper('.event_banner_swiper',{
+    navigation: {
+        prevEl: '.event_prev',
+        nextEl: '.event_next',
+        },
+    breakpoints: {
+        1401: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+        },
+        901: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+        },
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+    },
+});
