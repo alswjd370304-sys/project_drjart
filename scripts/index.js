@@ -176,3 +176,13 @@ for(let k=0; k<9; k++){
 }
 
 //탭메뉴 클릭 했을 때 활성화 되기
+const recommenededTab = document.querySelectorAll('.recommended_tab');
+
+for(let j=0; j<5; j++){
+    recommenededTab[j].addEventListener('click', ()=>{
+        for(let k=0; k<5; k++){
+            recommenededTab[k].classList.remove('active');
+        }
+        recommenededTab[j].classList.add('active');
+    })
+}
