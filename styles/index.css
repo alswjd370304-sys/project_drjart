@@ -639,7 +639,7 @@ main .new_wrap .new_link {
     height: 100vh;
     background-image: url(../images/new/new_d.jpg);
     background-size: 110% auto;
-    background-position: center top ;
+    background-position: right top;
     background-repeat: no-repeat;
     position: relative;
     }
