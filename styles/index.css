@@ -56,7 +56,8 @@ header .menu_overlay .menu_total_wrap .menu_left {background-color: var(--color-
 header .menu_overlay .menu_total_wrap .menu_left * {color: var(--color-bg);}
 header .menu_overlay .menu_total_wrap .menu_left .menu_logo {margin-bottom: 20px;}
 header .menu_overlay .menu_total_wrap .menu_left .menu_logo img {}
-header .menu_overlay .menu_total_wrap .menu_left .menu_tab_g .menu_tab {width: 140px; height: 60px; gap:8px; padding: 5px 0;}
+header .menu_overlay .menu_total_wrap .menu_left .menu_tab_g .menu_tab {width: 140px; height: 60px; gap:8px; padding: 5px 0; transition: 0.3s ease-out ;}
+header .menu_overlay .menu_total_wrap .menu_left .menu_tab_g .menu_tab:hover {background-color: var(--color-menu-active);}
 /* 왼쪽 메뉴 탭 활성화 */
 header .menu_overlay .menu_total_wrap .menu_left .menu_tab_g .menu_tab.active {background-color: var(--color-menu-active); padding: 5px 0;}
 
@@ -628,8 +629,8 @@ main .event_banner_wrap .swiper-wrapper .swiper-slide .event_link .event_txt .be
 /* 모바일 이벤트 배너 화살표 */
 main .event_banner_wrap .event_prev,
 main .event_banner_wrap .event_next {width: 32px; height: 32px; color: var(--color-brand-logan);}
-main .event_banner_wrap .event_prve {}
-main .event_banner_wrap .event_next {}
+main .event_banner_wrap .event_prve {left: 2%;}
+main .event_banner_wrap .event_next { right: 2%; top: 50%;}
 
 /* --------------------------------------------------------------7행 시작 */
 main .new_wrap {}
