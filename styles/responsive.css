@@ -924,10 +924,11 @@
         align-items: flex-start;
     }
     /* 왼쪽 영역 */
-    main .recommended_product_wrap .recommended_product_c .recommended_left {position: static; margin-right: 40px; margin-bottom: 34px; /* 일반흐름으로 돌아가기 스티키 효과 제거 */}
+    main .recommended_product_wrap .recommended_product_c .recommended_left  {width: 100%; overflow-wrap: break-word; word-break: keep-all;  margin-right: 0; position: static; margin-bottom: 34px; /* 일반흐름으로 돌아가기 스티키 효과 제거 */}
     main .recommended_product_wrap .recommended_product_c .recommended_left .sub_title {font-size: var(--font-size-m2); }
-    main .recommended_product_wrap .recommended_product_c .recommended_left .recommended_title {font-size: var(--font-size-m1);}
+    main .recommended_product_wrap .recommended_product_c .recommended_left .recommended_title {width: 100%; font-size: var(--font-size-m1);}
     main .recommended_product_wrap .recommended_product_c .recommended_left .recommended_tab_g {
+        overflow-x: auto; white-space: nowrap; scrollbar-width: none; /* 가로 방향이 넘치면 스크롤, 글자의 줄바꿈을 바꾸고, 스크롤바를 보이지 않도록 조정 */
         flex-flow: row nowrap;
         justify-content: flex-start;
         align-items: flex-start;
@@ -1060,6 +1061,7 @@
         }
 
     main .new_wrap .new_link .new_g {
+        max-width: 440px; width: 100%;
         position: absolute;
         left: 50%; top: 42%; transform: translateX(-50%);
         display: flex;
@@ -1069,9 +1071,9 @@
     }
     main .new_wrap .new_link .new_g * {color: var(--color-bg);}
     main .new_wrap .new_link .new_g > p {font-size: var(--font-size-m9); margin-bottom: 7px;}
-    main .new_wrap .new_link .new_g .title_g {margin-bottom: 39px; text-align: center;}
+    main .new_wrap .new_link .new_g .title_g {width: 100%; margin-bottom: 39px; text-align: center;}
     main .new_wrap .new_link .new_g .title_g .title {font-size: var(--font-size-m1); font-weight: 800; margin-bottom: 10px;}
-    main .new_wrap .new_link .new_g .title_g .sub_txt {font-size: var(--font-size-m3); width: max-content;}
+    main .new_wrap .new_link .new_g .title_g .sub_txt {width: 100%; font-size: var(--font-size-m3);}
     main .new_wrap .new_link .new_g .new_now_btn {
         border-radius: 200px; width: max-content; padding: 10px 20px; border: 1px solid var(--color-bg); 
         background-color: var(--color-now-btn);
@@ -1114,10 +1116,17 @@
     footer .footer_wrap .company_info_wrap .company_info_left .left_bottom p {line-height: 1.5;}
     /* 오른쪽 */
     footer .footer_wrap .company_info_wrap .company_info_right {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
         justify-content: flex-start;
         align-items: flex-start;
     }
-    footer .footer_wrap .company_info_wrap .company_info_right .sns_info {margin-bottom: 30px; gap: 18px;}
+    footer .footer_wrap .company_info_wrap .company_info_right .sns_info {
+        width: 100%; flex-wrap: wrap; margin-bottom: 30px; gap: 18px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
     footer .footer_wrap .company_info_wrap .company_info_right .sns_info a {font-size: var(--font-size-m7);}
     footer .footer_wrap .company_info_wrap .company_info_right .cs_info {
         justify-content: flex-start;
