@@ -659,3 +659,37 @@ main .new_wrap .new_link .new_g .new_now_btn {
 }
 main .new_wrap .new_link .new_g .new_now_btn span {transform: translateY(2px); margin-right: 10px;}
 main .new_wrap .new_link .new_g .new_now_btn img {}
+
+/* --------------------------------------------------------------footer 시작 */
+footer {width: 100%; padding: 40px 240px;}
+footer .footer_wrap * {color: var(--color-foooter1);}
+footer .footer_wrap {}
+footer .footer_wrap > p {}
+footer .footer_wrap > p img {}
+/* 라인 디자인 */
+footer .footer_wrap .footer_line {height: 235px; width: 0.8px; background-color: var(--color-foooter2);}
+/* 회사정보 */
+footer .footer_wrap .company_info_wrap {width: 1095px;}
+/* 왼쪽 영역 */
+footer .footer_wrap .company_info_wrap .company_info_left {}
+footer .footer_wrap .company_info_wrap .company_info_left .left_top {margin-bottom: 22px; gap: 8px;}
+footer .footer_wrap .company_info_wrap .company_info_left .left_top a {font-size: var(--font-size-d8);}
+footer .footer_wrap .company_info_wrap .company_info_left .left_top a:nth-child(1) {border-right: 2px solid var(--color-foooter2); padding-right: 8px;}
+footer .footer_wrap .company_info_wrap .company_info_left .left_top a:nth-child(2) {border-right: 2px solid var(--color-foooter2); padding-right: 8px}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom {}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom * {font-size: var(--font-size-d10);}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info {gap: 2px; margin-bottom: 22px;}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info address {}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info > p {}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information {}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information > p {margin-right: 4px;}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information .business_btn {border-bottom: 1px solid var(--color-foooter1); transform: translateY(22%);}
+footer .footer_wrap .company_info_wrap .company_info_left .left_bottom p {line-height: 1.5;}
+/* 오른쪽 */
+footer .footer_wrap .company_info_wrap .company_info_right {}
+footer .footer_wrap .company_info_wrap .company_info_right .sns_info {margin-bottom: 154px; gap: 18px;}
+footer .footer_wrap .company_info_wrap .company_info_right .sns_info a {font-family: 'GMarketSans', 'Pretendard';}
+footer .footer_wrap .company_info_wrap .company_info_right .cs_info {}
+footer .footer_wrap .company_info_wrap .company_info_right .cs_info p:nth-child(1) {font-size: var(--font-size-d12); font-weight: 600; margin-bottom: 7px;}
+footer .footer_wrap .company_info_wrap .company_info_right .cs_info p:nth-child(2) {font-size: var(--font-size-d11); font-weight: 600;}
+footer .footer_wrap .company_info_wrap .company_info_right .cs_info p {}

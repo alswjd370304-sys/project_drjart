@@ -478,6 +478,39 @@
     }
     main .new_wrap .new_link .new_g .new_now_btn span {font-size: var(--font-size-t6); transform: translateY(2px); margin-right: 10px;}
     main .new_wrap .new_link .new_g .new_now_btn img {}
+    /* --------------------------------------------------------------footer 시작 */
+    footer {padding: 40px 80px;}
+    footer .footer_wrap * {color: var(--color-foooter1);}
+    footer .footer_wrap {}
+    footer .footer_wrap > p {width: 139px; height: 27px; margin-right: 22px;}
+    footer .footer_wrap > p img {width: 100%;}
+    /* 라인 디자인 */
+    footer .footer_wrap .footer_line {height: 235px; width: 0.8px; margin-right: 22px;}
+    /* 회사정보 */
+    footer .footer_wrap .company_info_wrap {}
+    /* 왼쪽 영역 */
+    footer .footer_wrap .company_info_wrap .company_info_left {}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_top {margin-bottom: 22px; gap: 8px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_top a {font-size: var(--font-size-t12);}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_top a:nth-child(1) {border-right: 2px solid var(--color-foooter2); padding-right: 8px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_top a:nth-child(2) {border-right: 2px solid var(--color-foooter2); padding-right: 8px}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom {}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom * {font-size: var(--font-size-t15);}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info {gap: 2px; margin-bottom: 22px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info address {}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info > p {}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information {}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information > p {margin-right: 4px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information .business_btn {border-bottom: 1px solid var(--color-foooter1); transform: translateY(22%);}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom p {line-height: 1.5;}
+    /* 오른쪽 */
+    footer .footer_wrap .company_info_wrap .company_info_right {}
+    footer .footer_wrap .company_info_wrap .company_info_right .sns_info {margin-bottom: 154px; gap: 18px;}
+    footer .footer_wrap .company_info_wrap .company_info_right .sns_info a {font-size: var(--font-size-t16);}
+    footer .footer_wrap .company_info_wrap .company_info_right .cs_info {}
+    footer .footer_wrap .company_info_wrap .company_info_right .cs_info p:nth-child(1) {font-size: var(--font-size-t6); font-weight: 600;}
+    footer .footer_wrap .company_info_wrap .company_info_right .cs_info p:nth-child(2) {font-size: var(--font-size-t3); font-weight: 600;}
+    footer .footer_wrap .company_info_wrap .company_info_right .cs_info p {}
 } /* 태블릿 끝 */
 
 
@@ -1037,4 +1070,52 @@
     }
     main .new_wrap .new_link .new_g .new_now_btn span {font-size: var(--font-size-t6); transform: translateY(2px); margin-right: 10px;}
     main .new_wrap .new_link .new_g .new_now_btn img {}
+    /* --------------------------------------------------------------footer 시작 */
+    footer {padding: 40px 15px;}
+    footer .footer_wrap * {color: var(--color-foooter1);}
+    footer .footer_wrap {
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start
+    }
+    footer .footer_wrap > p {width: 115px; height: 23px; margin-right: 0; margin-bottom: 24px;}
+    footer .footer_wrap > p img {width: 100%;}
+    /* 라인 디자인 */
+    footer .footer_wrap .footer_line {height: 0; width:0; margin-right: 0;}
+    /* 회사정보 */
+    footer .footer_wrap .company_info_wrap {
+        width: 100%;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start
+    }
+    /* 왼쪽 영역 */
+    footer .footer_wrap .company_info_wrap .company_info_left {margin-bottom: 39px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_top {margin-bottom: 22px; gap: 8px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_top a {font-size: var(--font-size-m7);}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_top a:nth-child(1) {border-right: 2px solid var(--color-foooter2); padding-right: 8px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_top a:nth-child(2) {border-right: 2px solid var(--color-foooter2); padding-right: 8px}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom {width:100%;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom * {font-size: var(--font-size-m7);}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info {gap: 2px; margin-bottom: 22px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info address {}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info > p {}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information {}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information > p {margin-right: 4px;}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom .main_info .business_information .business_btn {border-bottom: 1px solid var(--color-foooter1); transform: translateY(22%);}
+    footer .footer_wrap .company_info_wrap .company_info_left .left_bottom p {line-height: 1.5;}
+    /* 오른쪽 */
+    footer .footer_wrap .company_info_wrap .company_info_right {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    footer .footer_wrap .company_info_wrap .company_info_right .sns_info {margin-bottom: 30px; gap: 18px;}
+    footer .footer_wrap .company_info_wrap .company_info_right .sns_info a {font-size: var(--font-size-m7);}
+    footer .footer_wrap .company_info_wrap .company_info_right .cs_info {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    footer .footer_wrap .company_info_wrap .company_info_right .cs_info p:nth-child(1) {font-size: var(--font-size-m3); font-weight: 600;}
+    footer .footer_wrap .company_info_wrap .company_info_right .cs_info p:nth-child(2) {font-size: var(--font-size-m2); font-weight: 600;}
+    footer .footer_wrap .company_info_wrap .company_info_right .cs_info p {}
 }/* 모바일 끝 */

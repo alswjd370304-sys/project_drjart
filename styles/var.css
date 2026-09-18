@@ -10,6 +10,8 @@
     --color-info: rgba(0, 0, 0, 0.5);
     --color-recommended: #BBBFBB;
     --color-now-btn: rgba(255,255,255,0.3);
+    --color-foooter1: rgba(34, 34, 34, 0.7);
+    --color-foooter2: rgba(34, 34, 34, 0.2);
 
     /* 데스크탑 폰트 사이즈 */
     --font-size-d1: 3.875rem;  /* 62 */
@@ -40,7 +42,9 @@
     --font-size-t11: 0.813rem; /* 13 */
     --font-size-t12: 0.75rem;  /* 12 */
     --font-size-t13: 1.063rem; /* 17 */
-    --font-size-t14: 3.75rem; /* 60 */
+    --font-size-t14: 3.75rem;  /* 60 */
+    --font-size-t15: 0.688rem; /* 11 */
+    --font-size-t16: 0.625rem; /* 10 */
 
     /* 모바일 */
     --font-size-m1: 2.125rem; /* 34 */
@@ -95,6 +99,12 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+.fle-r-b-c {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 .flex-c-b-s {
@@ -120,6 +130,12 @@
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
+}
+.fle-c-b-e {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .flex-c-s-s {
