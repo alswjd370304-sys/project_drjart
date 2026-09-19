@@ -185,23 +185,15 @@ main .hero_banner .hero .swiper-wrapper .hero2 .image_slide2 .ad_txt .show_now_b
 
 /* --------------------------------------------------------------2행 시작 */
 
-
-main .brand_slogan_wrap .brand_slogan {
-    padding: 115px 240px 38px 240px; text-align: center;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: 0.8s;
-}
+main .brand_slogan_wrap {opacity: 0; transform: translateY(50px);}
+main .brand_slogan_wrap .brand_slogan {padding: 115px 240px 38px 240px; text-align: center;}
 main .brand_slogan_wrap .brand_slogan p * {font-weight: 0.875rem;}
 main .brand_slogan_wrap .brand_slogan p:nth-child(1){font-family: 'HYGothic-Extra', 'pretendard';  margin-bottom: 15px;}
 main .brand_slogan_wrap .brand_slogan p:nth-child(2){font-size: 3.438rem; font-weight: 500; margin-bottom: 29px;}
 main .brand_slogan_wrap .brand_slogan p:nth-child(3){font-size: 1.063rem; line-height: 2; color: var(--color-brand-logan);}
 /* 스크롤 했을 때 브랜드 슬로건 active 클래스 주기 */
 /* 숨겨져 있다가 스크롤 시 위로 올라오는 애니메이션 */
-main .brand_slogan_wrap .brand_slogan.active {
-    opacity: 1;
-    transform: translateY(0);
-}
+main .brand_slogan_wrap .brand_slogan.active {}
 
 
 /* --------------------------------------------------------------3행 시작 */
@@ -512,10 +504,11 @@ main .recommended_product_wrap .recommended_product_c .recommended_right .recomm
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 main .recommended_product_wrap .recommended_product_c .recommended_right .recommended_link .image_cart {position: relative; margin-bottom: 14px;}
 main .recommended_product_wrap .recommended_product_c .recommended_right .recommended_link .image_cart .r_product_image {}
-main .recommended_product_wrap .recommended_product_c .recommended_right .recommended_link .prodcut_name_sub_g {margin-bottom: 13px;}
+main .recommended_product_wrap .recommended_product_c .recommended_right .recommended_link .prodcut_name_sub_g {margin-bottom: 13px; min-height: 68px;}
 main .recommended_product_wrap .recommended_product_c .recommended_right .recommended_link .prodcut_name_sub_g .name {font-size: var(--font-size-d6); margin-bottom: 6px; line-height: 1.5; text-align: center;}
 main .recommended_product_wrap .recommended_product_c .recommended_right .recommended_link .prodcut_name_sub_g .sub_txt_r {
     font-family: 'GMarketSans', 'Pretendard';
@@ -665,12 +658,12 @@ main .new_wrap .new_link .new_g .new_now_btn img {}
 footer {width: 100%; padding: 40px 240px;}
 footer .footer_wrap * {color: var(--color-foooter1);}
 footer .footer_wrap {}
-footer .footer_wrap > p {}
+footer .footer_wrap > p {margin-right: 15px;}
 footer .footer_wrap > p img {}
 /* 라인 디자인 */
-footer .footer_wrap .footer_line {height: 235px; width: 0.8px; background-color: var(--color-foooter2);}
+footer .footer_wrap .footer_line {height: 235px; width: 0.8px; background-color: var(--color-foooter2);margin-right: 15px; }
 /* 회사정보 */
-footer .footer_wrap .company_info_wrap {width: 1095px;}
+footer .footer_wrap .company_info_wrap {width: 100%}
 /* 왼쪽 영역 */
 footer .footer_wrap .company_info_wrap .company_info_left {}
 footer .footer_wrap .company_info_wrap .company_info_left .left_top {margin-bottom: 22px; gap: 8px;}

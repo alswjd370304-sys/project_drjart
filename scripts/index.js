@@ -34,14 +34,28 @@ const recommenededDiv = document.querySelector('.recommended_right');
 //------------------------------------------------------------------------------2행 swiper
 //해당 스크롤에 도착 시 딱 한 번 애니메이션을 진행하고 새로고침 전까지 작동 안함.
 //브랜드 슬로건 영역에 도착시 브랜드 슬로건 애니메이션 실행
-let animation = false; // 실행안함
-//
-window.addEventListener('scroll', ()=>{
-    if(scrollY > 100 &&  animation == false){
-        brand_slogan.classList.add('active');
-        animation = true;
-    }
-})
+//// ScrollTrigger 플러그인 등록
+gsap.registerPlugin(ScrollTrigger);
+// let animation = false; // 실행안함
+// //
+// window.addEventListener('scroll', ()=>{
+//     if(scrollY > 100 &&  animation == false){
+//         brand_slogan.classList.add('active');
+//         animation = true;
+//     }
+// })
+gsap.to('main .brand_slogan_wrap', {
+            opacity:1,
+            duration:0.8,
+            y:0,
+            //scrollTrigger: "main .hotel", //내가 움직이려는 대상의 부모
+            //위 명령 단점) 화면에서 1px만 보여도 바로 시작해버림
+            scrollTrigger: {
+                trigger:'.brand_slogan_wrap',
+                start: "top 90%",
+                //markers: true,
+            },
+        });
 
 //------------------------------------------------------------------------------3행 swiper
 const bestSlide = new Swiper('.best_product_swiper',{
