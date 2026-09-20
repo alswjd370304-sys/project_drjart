@@ -498,7 +498,7 @@ main .recommended_product_wrap .recommended_product_c .recommended_left .recomme
 main .recommended_product_wrap .recommended_product_c .recommended_left .recommended_tab_g .recommended_tab.active {color: var(--color-txt); border-bottom: 2px solid var(--color-txt); padding: 5px 0;}
 
 /* 오른쪽 영역 */
-main .recommended_product_wrap .recommended_product_c .recommended_right {width: 991px; height: 1266px; overflow: hidden; gap: 12px;}
+main .recommended_product_wrap .recommended_product_c .recommended_right {width: 991px; height: 1320px; overflow: hidden; gap: 12px;}
 main .recommended_product_wrap .recommended_product_c .recommended_right .recommended_link {
     display: flex;
     flex-flow: column nowrap;
