@@ -39,6 +39,7 @@ header .top_menu .main_menu .cart_menu img {width: 100%;}
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed; right: 1%; top: 92%; z-index: 999;
+    cursor: pointer;
 }
 
 /* -------------------------------------------------------------------------------------------------오버레이 메뉴창 디자인 */
