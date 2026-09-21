@@ -220,3 +220,12 @@ const eventSlide = new Swiper('.event_banner_swiper',{
         },
     },
 });
+
+//------------------------------------------------------------------------------CTA 동작
+const cta = document.querySelector('.cta');
+cta.addEventListener('click', ()=>{
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth' //부드럽게 올라가는 효과
+    });
+})

@@ -32,6 +32,14 @@ header .top_menu .main_menu #secrch {}
 header .top_menu .main_menu .cart_menu {gap: 4px;}
 header .top_menu .main_menu .cart_menu a {}
 header .top_menu .main_menu .cart_menu img {width: 100%;}
+/* -------------------------------------------------------------------------------------------------CTA 버튼 */
+.cta {
+    width: 50px; height: 50px;
+    background-image: url(../images/cta/cta.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed; right: 1%; top: 92%; z-index: 999;
+}
 
 /* -------------------------------------------------------------------------------------------------오버레이 메뉴창 디자인 */
 header .menu_overlay {
