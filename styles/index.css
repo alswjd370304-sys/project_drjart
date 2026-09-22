@@ -13,6 +13,7 @@ header .top_ad .ad_txt {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    white-space: nowrap;
 }
 header .top_ad .ad_close_btn {}
 header .top_ad .ad_close_btn button {}
