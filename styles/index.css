@@ -668,10 +668,10 @@ main .new_wrap .new_link .new_g .new_now_btn img {}
 footer {width: 100%; padding: 40px 240px;}
 footer .footer_wrap * {color: var(--color-foooter1);}
 footer .footer_wrap {}
-footer .footer_wrap > p {margin-right: 15px;}
+footer .footer_wrap > p {margin-right: 25px;}
 footer .footer_wrap > p img {}
 /* 라인 디자인 */
-footer .footer_wrap .footer_line {height: 235px; width: 0.8px; background-color: var(--color-foooter2);margin-right: 15px; }
+footer .footer_wrap .footer_line {height: 235px; width: 0.8px; background-color: var(--color-foooter2); margin-right: 25px;}
 /* 회사정보 */
 footer .footer_wrap .company_info_wrap {width: 100%}
 /* 왼쪽 영역 */
